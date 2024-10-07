@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layouts/Layout";
-import "../../styles/HomeStyle.css";
+import "../../styles/HomeStyle.css"
 import Section1 from "./Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
@@ -21,18 +21,8 @@ const Home = () => {
 
         {/* Home Section Menu */}
         <Section3 />
-
-        {/* Home Section Promotion */}
-        <Section4 />
-
-        {/* Home Section Shop */}
-        <Section5 />
-
-        {/* Home Section Blog */}
-        <Section6 />
-
-        {/* Home Section Contact */}
-        <Section7 />
+        <Section4></Section4>
+        
       </Layout>
     </>
   );

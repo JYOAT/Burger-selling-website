@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/logo/logo.png";
+import Logo from "../../Assets/Food_Assets/assets/logo/logo.png";
 import "../../styles/HeaderStyle.css";
 
 const Header = () => {
